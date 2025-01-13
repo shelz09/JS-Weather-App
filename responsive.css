@@ -1,0 +1,29 @@
+@media (max-width:850px) {
+    .navbar input{
+        width:20rem;
+    }
+    .container{
+        padding:1rem 1.5rem 0rem;
+    }
+    .inner-container{
+        padding:1rem 1.5rem;
+    }
+}
+@media (max-width:700px){
+   .row{
+        flex-wrap: wrap;
+        flex-direction: column;
+   }
+   .col{
+    padding:1rem 0;
+    width:100%;
+   }
+   .col span{
+    font-size: 1.3rem;
+   }
+}
+@media (max-width:450px) {
+    .navbar input{
+        width:14rem;
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <video src="videos/rain.mp4" autoplay muted loop class="backgroundvideo"></video>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <input type="text" placeholder="Enter City name" spellcheck="false">
+                <button class="search"><img src="images/search.png" alt=""></button>
+            </div>
+        </header>
+        <main>
+            <div class="weather inner-container">
+                <div class="weather-img"><img src="images/rain.png" alt="" class="wthricon"></div>
+                <div class="weather-text">
+                    <h1 class="temp"> JS Weather</h1>
+                    <h1 class="city">App</h1>
+                </div>
+            </div>
+            <div class="row inner-container">
+                <div class="col ">
+                    <img src="images/humidity.png" alt="">
+                    <span class="humidity">50%<br>Humidity</span>   
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <span class="windspeed">8 Km/h<br>Windspeed</span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
