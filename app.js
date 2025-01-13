@@ -1,5 +1,5 @@
-const apikey = "e374fc3a4826597701804356d32bbd5c";
-const apiurl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+const apikey = "";
+const apiurl = "";
 const searchbox = document.querySelector(".navbar input");
 const searchbtn = document.querySelector(".search");
 const weatherimg = document.querySelector(".wthricon");
